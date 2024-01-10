@@ -30,14 +30,23 @@ body {
     padding: 0;
 }
     
-.header_nav_link {
-    width: 100%;
+.header_nav_link , .header_nav_link_hosting {
+    width: 50%;
     padding: 25px;
     border-top: transparent;
     border-bottom: 3px solid #F2F2F2;
 }
     
+.header_nav_link_hosting {
+    margin-right: 0;
+}
+
 .header_nav_link:hover {
+    border-top: transparent;
+    border-bottom: 3px solid #0065FC;
+}
+
+.header_nav_link_hosting:hover {
     border-top: transparent;
     border-bottom: 3px solid #0065FC;
 }

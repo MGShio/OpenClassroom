@@ -70,15 +70,24 @@ li {
     align-items: center;   
 }
 
-.header_nav_link {
-    width: 120px;
-    padding: 30px;
+.header_nav_link , .header_nav_link_hosting {
+    width: auto;
+    padding-top: 30px;
     text-align: center;
     font-weight: 500;
     border-top: 4px solid transparent;
 }
 
+.header_nav_link_hosting {
+    margin-right: 30px;
+}
+
 .header_nav_link:hover {
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+}
+
+.header_nav_link_hosting:hover {
     color: #0065FC;
     border-top: 4px solid #0065FC;
 }
